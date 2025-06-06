@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "7864469225:AAGEcoXschieeoXFMJhEJadxP9gMnjZYbF8"
+BOT_TOKEN = "os.getenv("BOT_TOKEN")"
 BLOGGER_URL = "https://allin1dl.blogspot.com/p/instagram-downloader.html"
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
